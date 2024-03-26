@@ -680,7 +680,7 @@ void kiero::shutdown()
 
 kiero::Status::Enum kiero::bind(uint16_t _index, void** _original, void* _function)
 {
-	// TODO: Need own detour function
+	//             TODO: Need own detour function
 
 	assert(_original != NULL && _function != NULL);
 
